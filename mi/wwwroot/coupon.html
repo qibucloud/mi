@@ -6628,252 +6628,91 @@
             }
     </style>
     <style type="text/css">
-        body {
-            background: 0 0
+        .page-user-coupon {
+            background: #FFF
         }
 
-        .page-order-pay {
-            background-color: #fff;
+        .page-user-coupon-wrap {
+            padding: .2rem;
             padding-bottom: 1rem
         }
 
-            .page-order-pay .wxtip {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: rgba(0,0,0,.85);
-                z-index: 10
+            .page-user-coupon-wrap .empt .b3 {
+                font-size: .3rem;
+                text-align: center;
+                background: url(//s1.mi.com/m/images/m/empty.png) 50% 0 no-repeat;
+                -webkit-background-size: 2rem 2rem;
+                -moz-background-size: 2rem 2rem;
+                -ms-background-size: 2rem 2rem;
+                -o-background-size: 2rem 2rem;
+                background-size: 2rem 2rem;
+                padding-top: 3rem;
+                color: #999;
+                margin: 1.5rem 1rem 0
             }
 
-                .page-order-pay .wxtip .img img {
-                    width: 100%
-                }
-
-            .page-order-pay .box1 {
-                padding: .3rem .2rem;
-                text-align: center
+            .page-user-coupon-wrap .couponList > li {
+                border: 1px solid #f6f6f6;
+                -webkit-border-radius: .06rem;
+                -moz-border-radius: .06rem;
+                -ms-border-radius: .06rem;
+                -o-border-radius: .06rem;
+                border-radius: .06rem;
+                padding: .3rem;
+                margin-bottom: .3rem
             }
 
-                .page-order-pay .box1 .p1 {
-                    color: #91b953
+                .page-user-coupon-wrap .couponList > li:last-child {
+                    margin-bottom: 0
                 }
 
-                    .page-order-pay .box1 .p1 span {
-                        font-size: .4rem;
-                        line-height: .6rem
-                    }
-
-                    .page-order-pay .box1 .p1 .icon-checked {
-                        font-size: .5rem;
-                        line-height: .6rem;
-                        margin-right: .06rem
-                    }
-
-                .page-order-pay .box1 .p2 span {
-                    font-size: .28rem;
-                    line-height: .5rem;
-                    color: #333
-                }
-
-            .page-order-pay .box2 {
-                border: 1px solid #eee;
-                padding: .2rem .4rem;
-                background-color: #f8f8f8
+            .page-user-coupon-wrap .couponList .title {
+                font-size: .3rem;
+                margin-bottom: .16rem;
+                padding-bottom: .1rem;
+                border-bottom: 1px solid #f6f6f6
             }
 
-                .page-order-pay .box2 .p {
-                    font-size: .24rem;
-                    color: #666;
-                    line-height: .42rem
-                }
-
-            .page-order-pay .box3 {
-                padding: .1rem .3rem .3rem
+            .page-user-coupon-wrap .couponList .content {
+                font-size: .26rem;
+                line-height: .34rem;
+                color: #999;
+                margin: .28rem 0
             }
 
-                .page-order-pay .box3 .head span {
-                    font-size: .3rem;
-                    color: #666;
-                    line-height: .7rem
+                .page-user-coupon-wrap .couponList .content strong {
+                    font-weight: 200
                 }
 
-                .page-order-pay .box3 .list {
-                    padding-top: 0;
-                    padding-bottom: 0
+                .page-user-coupon-wrap .couponList .content span {
+                    margin: 0 .1rem
                 }
 
-                    .page-order-pay .box3 .list li {
-                        border-bottom: 1px solid #f6f6f6
-                    }
-
-                        .page-order-pay .box3 .list li:last-child {
-                            border: 0
-                        }
-
-                    .page-order-pay .box3 .list .item {
-                        padding-right: .6rem;
-                        background: url(//s1.mi.com/m/images/m/check_normal.png) 100% 50% no-repeat;
-                        -webkit-background-size: .4rem .4rem;
-                        -moz-background-size: .4rem .4rem;
-                        -ms-background-size: .4rem .4rem;
-                        -o-background-size: .4rem .4rem;
-                        background-size: .4rem .4rem
-                    }
-
-                        .page-order-pay .box3 .list .item.on {
-                            background: url(//s1.mi.com/m/images/m/check_press.png) 100% 50% no-repeat;
-                            -webkit-background-size: .4rem .4rem;
-                            -moz-background-size: .4rem .4rem;
-                            -ms-background-size: .4rem .4rem;
-                            -o-background-size: .4rem .4rem;
-                            background-size: .4rem .4rem
-                        }
-
-                        .page-order-pay .box3 .list .item a {
-                            display: block;
-                            font-size: .26rem;
-                            line-height: .5rem;
-                            padding-left: .7rem;
-                            padding-top: .2rem;
-                            padding-bottom: .2rem
-                        }
-
-                            .page-order-pay .box3 .list .item a.alipaywap {
-                                background: url(//s1.mi.com/m/images/m/pay_zfb2.png) 0 50% no-repeat;
-                                -webkit-background-size: .5rem .5rem;
-                                -moz-background-size: .5rem .5rem;
-                                -ms-background-size: .5rem .5rem;
-                                -o-background-size: .5rem .5rem;
-                                background-size: .5rem .5rem
-                            }
-
-                            .page-order-pay .box3 .list .item a.unionpaywap {
-                                background: url(//s1.mi.com/m/images/m/pay_yl1.png) 0 50% no-repeat;
-                                -webkit-background-size: .5rem .5rem;
-                                -moz-background-size: .5rem .5rem;
-                                -ms-background-size: .5rem .5rem;
-                                -o-background-size: .5rem .5rem;
-                                background-size: .5rem .5rem
-                            }
-
-                            .page-order-pay .box3 .list .item a.micash_wap {
-                                background: url(//s1.mi.com/m/images/m/micash_wap.png) 0 50% no-repeat;
-                                -webkit-background-size: .5rem .5rem;
-                                -moz-background-size: .5rem .5rem;
-                                -ms-background-size: .5rem .5rem;
-                                -o-background-size: .5rem .5rem;
-                                background-size: .5rem .5rem
-                            }
-
-                            .page-order-pay .box3 .list .item a.weixin_wap {
-                                background: url(//s1.mi.com/m/images/m/pay_wx.png) 0 50% no-repeat;
-                                -webkit-background-size: .5rem .5rem;
-                                -moz-background-size: .5rem .5rem;
-                                -ms-background-size: .5rem .5rem;
-                                -o-background-size: .5rem .5rem;
-                                background-size: .5rem .5rem
-                            }
-
-                            .page-order-pay .box3 .list .item a.antinstal_m {
-                                background: url(//s1.mi.com/m/images/m/pay_antinstalment.png) 0 50% no-repeat;
-                                -webkit-background-size: .5rem .5rem;
-                                -moz-background-size: .5rem .5rem;
-                                -ms-background-size: .5rem .5rem;
-                                -o-background-size: .5rem .5rem;
-                                background-size: .5rem .5rem
-                            }
-
-                            .page-order-pay .box3 .list .item a.mifinanceinstal_m {
-                                background: url(//s1.mi.com/m/images/m/pay_mifinanceinstal.png) 0 50% no-repeat;
-                                -webkit-background-size: .5rem .5rem;
-                                -moz-background-size: .5rem .5rem;
-                                -ms-background-size: .5rem .5rem;
-                                -o-background-size: .5rem .5rem;
-                                background-size: .5rem .5rem
-                            }
-
-                        .page-order-pay .box3 .list .item .ui-box-flex {
-                            margin-left: .2rem;
-                            font-size: .24rem;
-                            color: #999
-                        }
-
-                    .page-order-pay .box3 .list .instalment {
-                        margin: 0 0 .2rem;
-                        font-size: .3rem
-                    }
-
-                        .page-order-pay .box3 .list .instalment .stage {
-                            padding-left: .7rem
-                        }
-
-                        .page-order-pay .box3 .list .instalment .title {
-                            text-align: center;
-                            line-height: .5rem;
-                            font-size: .26rem
-                        }
-
-                        .page-order-pay .box3 .list .instalment li {
-                            padding-top: .44rem;
-                            padding-bottom: .44rem
-                        }
-
-                            .page-order-pay .box3 .list .instalment li .cost {
-                                width: 100%;
-                                text-align: right
-                            }
-
-                            .page-order-pay .box3 .list .instalment li .row label, .page-order-pay .box3 .list .instalment li .row span {
-                                display: inline-block;
-                                width: 1.5rem;
-                                vertical-align: middle
-                            }
-
-            .page-order-pay .box4 {
-                border-top: 1px solid #eee;
-                padding: .26rem .4rem .2rem
+            .page-user-coupon-wrap .expired .content, .page-user-coupon-wrap .expired .title, .page-user-coupon-wrap .used .content, .page-user-coupon-wrap .used .title {
+                color: #999
             }
 
-                .page-order-pay .box4 .p1 p {
-                    font-size: .3rem;
-                    line-height: .44rem;
-                    color: #333
-                }
-
-                .page-order-pay .box4 .p1 .hot {
-                    color: #FF5722
-                }
-
-                .page-order-pay .box4 .p2 {
-                    padding: .2rem 0
-                }
-
-                    .page-order-pay .box4 .p2 span {
-                        font-size: .21rem;
-                        line-height: .34rem;
-                        color: #999
-                    }
-
-            .page-order-pay .box5 {
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                right: 0
+            .page-user-coupon-wrap .expired {
+                background: url(//s1.mi.com/m/images/m/coupon_expired.png) 100% 100% no-repeat;
+                -webkit-background-size: 1.34rem 1.27rem;
+                -moz-background-size: 1.34rem 1.27rem;
+                -ms-background-size: 1.34rem 1.27rem;
+                -o-background-size: 1.34rem 1.27rem;
+                background-size: 1.34rem 1.27rem
             }
 
-                .page-order-pay .box5 .ui-button {
-                    -webkit-border-radius: 0;
-                    -moz-border-radius: 0;
-                    -ms-border-radius: 0;
-                    -o-border-radius: 0;
-                    border-radius: 0
-                }
+            .page-user-coupon-wrap .used {
+                background: url(//s1.mi.com/m/images/m/coupon_used.png) 100% 100% no-repeat;
+                -webkit-background-size: 1.34rem 1.27rem;
+                -moz-background-size: 1.34rem 1.27rem;
+                -ms-background-size: 1.34rem 1.27rem;
+                -o-background-size: 1.34rem 1.27rem;
+                background-size: 1.34rem 1.27rem
+            }
     </style>
 </head>
 
 <body>
-    <div id="wrapper"><div class="page-order-pay" data-log="在线支付"><div class="box box1"><div class="p1"><span class="icon-checked"></span><span>订单提交成功</span></div><div class="p2"><span>请在1小时56分58秒内完成支付，超时订单将关闭。</span></div></div><div class="box box2"><div class="p">订单金额：2017元 &nbsp;&nbsp; 订单编号：5170521991402419</div><!--vue-if--><!--vue-if--><div class="p h_box"><div>收货信息：</div><div class="flex_1">魏春云 151****2662<br>江西南昌市新建县吉安县万福镇净坑村委 (343133)</div></div><div class="p">发票类型：电子发票 <p>发票抬头：个人</p><!--vue-if--></div><!--vue-if--></div><div class="box box3"><div class="head"><span>请选择支付方式</span></div><div class="list"><ul><li><div class="item ui-box on"><a href="javascript:;" class="weixin_wap" data-stat-id="3a0cea111e78524e" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-3a0cea111e78524e', 'javascript:', 'pcpid', '']);">微信支付</a><div class="ui-box-flex">关注小米手机微信 领影票红包</div></div><!--vue-if--><!--vue-if--></li><li><div class="item ui-box"><a href="javascript:;" class="alipaywap" data-stat-id="e9012fef55402b6c" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-e9012fef55402b6c', 'javascript:', 'pcpid', '']);">支付宝</a><div class="ui-box-flex">支付满38元赢1999元红包</div></div><!--vue-if--><!--vue-if--></li><li><div class="item ui-box"><a href="javascript:;" class="micash_wap" data-stat-id="ebe01bbebf3e347c" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-ebe01bbebf3e347c', 'javascript:', 'pcpid', '']);">小米钱包</a><div class="ui-box-flex">绑新卡支付，享最高立减99元</div></div><!--vue-if--><!--vue-if--></li><li><div class="item ui-box"><a href="javascript:;" class="unionpaywap" data-stat-id="3ebcd3e9d60846f2" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-3ebcd3e9d60846f2', 'javascript:', 'pcpid', '']);">银联在线支付</a><div class="ui-box-flex"></div></div><!--vue-if--><!--vue-if--></li><li><div class="item ui-box"><a href="javascript:;" class="antinstal_m" data-stat-id="ff4613d69216fe67" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-ff4613d69216fe67', 'javascript:', 'pcpid', '']);">花呗分期</a><div class="ui-box-flex"></div></div><div class="instalment" style="display: none;"><ul><li><div class="item on"><div class="stage"><div class="count">687.79元 x 3期</div><!--vue-if--><p><span>手续费 15.46元/期，费率2.3%</span></p><!--vue-if--></div></div></li><li><div class="item"><div class="stage"><div class="count">351.28元 x 6期</div><!--vue-if--><p><span>手续费 15.12元/期，费率4.5%</span></p><!--vue-if--></div></div></li><li><div class="item"><div class="stage"><div class="count">181.52元 x 12期</div><!--vue-if--><p><span>手续费 13.44元/期，费率8.0%</span></p><!--vue-if--></div></div></li><!--v-repeat-instalments--></ul></div><!--vue-if--><!--vue-if--></li><li><div class="item ui-box"><a href="javascript:;" class="mifinanceinstal_m" data-stat-id="09e32df503dc5bb7" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-09e32df503dc5bb7', 'javascript:', 'pcpid', '']);">小米分期</a><div class="ui-box-flex"></div></div><!--vue-if--><div class="instalment" style="display: none;"><ul><li><div class="item on"><div class="stage"><div class="count">687.26元 x 3期</div><!--vue-if--><p><span>手续费 14.93元/期，费率2.22%</span></p><!--vue-if--></div></div></li><li><div class="item"><div class="stage"><div class="count">349.28元 x 6期</div><!--vue-if--><p><span>手续费 13.11元/期，费率3.9%</span></p><!--vue-if--></div></div></li><li><div class="item"><div class="stage"><div class="count">180.18元 x 12期</div><!--vue-if--><p><span>手续费 12.1元/期，费率7.2%</span></p><!--vue-if--></div></div></li><!--v-repeat-instalments--></ul></div><!--vue-if--></li><!--v-repeat-paymethod.list--></ul></div></div><!--vue-if--><div class="box box5"><a href="javascript:;" data-log="bottom-bankgo" class="ui-button" data-stat-id="88b9ab3ce2e496a8" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-88b9ab3ce2e496a8', 'javascript:', 'pcpid', '']);"><span>去付款</span></a></div></div><!--v-view--></div>
+    <div id="wrapper"><div class="page-user-coupon" data-log="我的优惠券"><div class="header"><div class="left"><a title="小米商城" data-log="HEAD-首页" class="home" data-stat-id="346f31c749f6e40d" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-346f31c749f6e40d', '', 'pcpid', '']);"><img src="//s1.mi.com/m/images/m/icon_back_n.png" class="ib"></a></div><div class="tit"><h2 data-log="HEAD-标题-优惠券列表"><span class="title">优惠券列表</span></h2><!--vue-if--></div><div class="right"><a href="/#/search/index" data-event="30000000110001001" data-stat-id="c023b3a63f45c384" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-c023b3a63f45c384', '/#/search/index', 'pcpid', '']);"><div class="icon icon-search"></div></a></div><!--vue-if--></div><div class="page-user-coupon-wrap"><!--vue-if--><!--vue-if--></div><div class="footer"><ul><li><a href="/#/index" data-event="30000000110001002" data-stat-id="22e2020609e99d72" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-22e2020609e99d72', '/#/index', 'pcpid', '']);"><div class="nav"><div class="ih ispr"></div><p>首页</p></div></a></li><li><a href="/#/product/category" data-event="30000000110001003" data-stat-id="3a200b7f58b28dcf" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-3a200b7f58b28dcf', '/#/product/category', 'pcpid', '']);"><div class="nav"><div class="ic ispr"></div><p>分类</p></div></a></li><li><a href="/#/cart/index" data-event="30000000110001006" data-stat-id="3026740b323f6a9a" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-3026740b323f6a9a', '/#/cart/index', 'pcpid', '']);"><div class="nav"><div class="is ispr"></div><p>购物车</p></div></a></li><li><a href="/#/user/index" data-event="30000000110001005" class="on" data-stat-id="5030c3a449186266" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-5030c3a449186266', '/#/user/index', 'pcpid', '']);"><div class="nav"><div class="if ispr"></div><p>我的</p></div></a></li></ul></div></div><!--v-view--></div>
 </body>
 </html>

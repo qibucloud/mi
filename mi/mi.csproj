@@ -11,6 +11,10 @@
     </Content>
     <Content Include="wwwroot\address.html" />
     <Content Include="wwwroot\addressedit.html" />
+    <Content Include="wwwroot\coupon.html" />
+    <Content Include="wwwroot\orderpay - 复制.html">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Include="wwwroot\orderpay.html" />
     <Content Include="wwwroot\pg_jx - 复制.html">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
